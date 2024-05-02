@@ -1,5 +1,5 @@
 ﻿<div align="center"> 
-<h1>Lista de exercícios 01 </h1>
+<h1>Lista de exercícios 02 </h1>
 <h1>Formação desenvolvedor Full Stack Júnior </h1>
 </div>
 
@@ -10,7 +10,9 @@
 
 Este repositório é uma avaliação da Formação desenvolvedor Full Stack Júnior, programa organizado pela [+praTi](https://www.maisprati.com.br/ "Site da +praTi") em parceria com a [Codifica Edu](https://www.codificaedu.com.br/ "Site da Codifica Edu").
 
-Consiste em 16 exercícios para fixação dos conhecimentos adquiridos sobre JavaScript básico, os exercícios contemplam as operações fundamentais, estruturas de controle condicional e de repetição (por orientação do [Professor Jaques](https://www.linkedin.com/in/jaques-antunes/ "Perfil LinkedIn do professor Jaques"), não é permitido a utilização de funções e arrays).
+Consiste em 50 exercícios para fixação dos conhecimentos adquiridos sobre lógica de programação abordados no módulo 01 em JavaScript, os exercícios contemplam as operações fundamentais, estruturas de controle condicional, estruturas de repetição, arrays, matrizes e funções.
+
+Exercícios elaborados por: [Professor Jaques](https://www.linkedin.com/in/jaques-antunes/ "Perfil LinkedIn do professor Jaques").
 
 ![Logo +praTi](https://www.assespro-rs.org.br/wp-content/uploads/logo_azul.png)
 
@@ -27,10 +29,10 @@ Pré-requisitos:  Node v19.7.0
 
 ```bash
 # clonar repositório
-git clone https://github.com/xGabriel-Teles/M01A01.git
+git clone https://github.com/xGabriel-Teles/M01A02.git
 
 # entrar na pasta do projeto
-cd M01A01
+cd M01A02
 
 # instalar dependências
 npm install
