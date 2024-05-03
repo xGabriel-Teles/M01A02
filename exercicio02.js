@@ -7,7 +7,10 @@ multa, cobrando R$ 5,00 por cada Km acima da velocidade permitida.
 const prompt = require('prompt-sync')();
 
 function penaltyCalculation(speed) {
-    if (speed > 80) {
+    // Limite de velocidade permitida
+    let permittedSpeed = 80;
+    
+    if (speed > permittedSpeed) {
         // Valor cobrado por cada Km acima da velocidade permitida
         let speedExceededvalue = 5;
 
