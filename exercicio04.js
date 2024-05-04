@@ -11,14 +11,16 @@ let lineOne = parseInt(prompt('Digite o comprimento da primeira reta: '));
 let lineTwo = parseInt(prompt('Digite o comprimento da segunda reta: '));
 let lineThree = parseInt(prompt('Digite o comprimento da terceira reta: '));
 
-(function (a, b, c){
+const formTriangle = function (a, b, c){
     if (a + b > c && b + c > a && a + c > b) {
         console.log('\nÉ possível formar um triângulo com os valores informados para cada reta!');
         console.log('========================================================================');
     } else {
         console.log('\nNão é possível formar um triângulo com os valores informados para cada reta!');
     };
-})(lineOne, lineTwo, lineThree);
+}; 
+
+formTriangle(lineOne, lineTwo, lineThree);
 
 
 
