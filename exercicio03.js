@@ -18,6 +18,6 @@ function priceCalculation(distance) {
 }
 
 console.log('========================================================================');
-let distance = prompt("Qual a distância em km você deseja percorrer? ");
+let distance = prompt('Qual a distância em km você deseja percorrer? ');
 console.log(`\nO preço da passagem será R$${priceCalculation(distance)}.`);
 console.log('========================================================================');

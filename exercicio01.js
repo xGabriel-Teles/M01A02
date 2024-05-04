@@ -29,8 +29,8 @@ function lifespanReduction (cigarettes, smokingTime){
     return totalDaysLostLife
 }   
 console.log('========================================================================');
-let cigarettes = prompt("Quantos cigarros você fuma por dia? ");
-let smokingTime = prompt("Você é fumante a quantos anos? ");
+let cigarettes = prompt('Quantos cigarros você fuma por dia? ');
+let smokingTime = prompt('Você é fumante a quantos anos? ');
 
 console.log(`\nVocê perderá aproximadamente ${lifespanReduction(cigarettes, smokingTime)} dias em sua vida, então pare de fumar!`);
 console.log('========================================================================');

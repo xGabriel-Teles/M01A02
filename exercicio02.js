@@ -29,5 +29,5 @@ function penaltyCalculation(speed) {
 }
 
 console.log('========================================================================');
-let speed = prompt("Qual a velocidade que o carro passou em km/h? ");
+let speed = prompt('Qual a velocidade que o carro passou em km/h? ');
 penaltyCalculation(speed);
