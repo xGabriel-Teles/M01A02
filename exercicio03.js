@@ -7,18 +7,17 @@ const prompt = require('prompt-sync')();
 
 function priceCalculation(distance) {
     let priceKm;
-    if (distance <= 200) {
-        priceKm = 0.50;
-    } else {
-        priceKm = 0.45;
-    }
+
+    // Condicional para verificar o preço do Km
+    distance <= 200 ? priceKm = 0.50 : priceKm = 0.45;
+
     // Calculo do preço total, multiplicando a distância digitada pelo usuário pelo valor do Km
     priceTotal = (priceKm * distance).toFixed(2);
+
     return priceTotal;
 }
 
 console.log('========================================================================');
 let distance = prompt("Qual a distância em km você deseja percorrer? ");
-
 console.log(`\nO preço da passagem será R$${priceCalculation(distance)}.`);
 console.log('========================================================================');
