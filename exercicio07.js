@@ -21,8 +21,8 @@ function calcPriceTotal(pricePerDay, rentalDays, distanceTraveled, priceKm){
     let priceTotal = (pricePerDay * rentalDays) + (distanceTraveled * priceKm);
     return priceTotal.toFixed(2);
 }
-
-console.log('Escolha o tipo de carro que deseja alugar')
+console.log('========================================================================');
+console.log('Escolha o tipo de carro que deseja alugar.')
 let typeCar = prompt('Digite 1 para carro popular e 2 para carro de luxo: ');
 
 if (typeCar == 1 || typeCar == 2){
@@ -33,12 +33,14 @@ if (typeCar == 1 || typeCar == 2){
         case '1':
             pricePerDay = 90;
             distanceTraveled <= 100 ? priceKm = 0.20 : priceKm = 0.10;
-            console.log(`O preço total a ser pago é R$${calcPriceTotal(pricePerDay, rentalDays, distanceTraveled, priceKm)}.`);
+            console.log(`\nO preço total a ser pago é R$${calcPriceTotal(pricePerDay, rentalDays, distanceTraveled, priceKm)}.`);
+            console.log('========================================================================');
             break;
         case '2':
             pricePerDay = 150;
             distanceTraveled <= 100 ? priceKm = 0.30 : priceKm = 0.25;
-            console.log(`O preço total a ser pago é R$${calcPriceTotal(pricePerDay, rentalDays, distanceTraveled, priceKm)}.`);
+            console.log(`\nO preço total a ser pago é R$${calcPriceTotal(pricePerDay, rentalDays, distanceTraveled, priceKm)}.`);
+            console.log('========================================================================');
             break;
     }
 } else {
