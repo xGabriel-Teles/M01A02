@@ -1,4 +1,4 @@
-/*8. 
+/* 8. 
 Um programa de vida saudável quer dar pontos por atividades físicas realizadas que podem ser trocados por dinheiro. 
 Cada hora de atividade física no mês vale pontos. O sistema funciona assim:
 - até 10 h de atividade no mês: ganha 2 pontos por hora
