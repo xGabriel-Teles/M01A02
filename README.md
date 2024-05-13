@@ -19,9 +19,9 @@ Exercícios elaborados por: [Professor Jaques](https://www.linkedin.com/in/jaque
 
 # Tecnologias utilizadas
 
-- JavaScript;
-- NodeJs.
-
+<div>
+  <img loading="lazy" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
 
 # Como executar o projeto
 
