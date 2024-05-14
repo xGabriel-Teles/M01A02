@@ -23,7 +23,6 @@ do {
     exit = prompt('Deseja sair?  ').toLowerCase();
 } while (exit !== 'sim');
 
-
     // a) O somatório entre todos os valores;
     for (let i = 0; i < numbers.length; i++){
         sumNumbers += numbers[i];
@@ -44,10 +43,7 @@ do {
         }
     }
 
-
-
-console.log(numbers);
-console.log(sumNumbers);
-console.log(smallestNumber);
-console.log(average);
-console.log(pairCounter);
+console.log(`\nA soma dos números é ${sumNumbers}.`);
+console.log(`O menor número digitado é ${smallestNumber}.`);
+console.log(`A média dos números é ${average.toFixed(1)}.`);
+console.log(`Dentre os números digitados, ${pairCounter} são pares.`);
