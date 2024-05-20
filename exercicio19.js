@@ -15,3 +15,7 @@ function getTimetable() {
 for (let i = 1; i < 6; i++) {
     setTimeout(getTimetable, i*1000)
 }
+
+/*  Professor Jaques, caso leia esse comentário, utilizei o setTimeout apenas pra não ficar 5 vezes o mesmo horário no prompt, assim ele executa 5x o loop, 
+    cada volta adicionando 1 segundo a mais na chamada da função. 
+*/
