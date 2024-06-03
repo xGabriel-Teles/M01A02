@@ -17,12 +17,10 @@ let validation = true;
 let gender;
 
 console.log('========================================================================');
-let weight = prompt('Digite sua altura (ex: 1.80): ');
+let weight = parseFloat(prompt('Digite sua altura (ex: 1.80): '));
 while (validation) {
     gender = prompt('Digite seu gênero (F ou M): ').toUpperCase();
-    if (gender === 'M') {
-        validation = false;
-    } else if (gender === 'F') {
+    if (gender === 'M' || gender === 'F') {
         validation = false;
     } else {
         console.log('Opção inválida, digite novamente.')
