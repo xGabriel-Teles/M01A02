@@ -11,12 +11,11 @@ for (let i = 0; i < columns; i++) {
 
 for (let i = 0; i < MI.length; i++){
     for(let j = 0; j < MI.length; j++){
-        if(MI[i] === MI[j]){
+        if(i === j){
             MI[i][j]= 1;
         } else {
             MI[i][j]= null;
         }
     }
 }
-
 console.table(MI);
