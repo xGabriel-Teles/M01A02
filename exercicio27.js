@@ -7,7 +7,7 @@ const prompt = require('prompt-sync')();
 
 let V = [];
 
-// Criando matriz M
+// Criando matriz M 
 let lines = 6;
 let columns = 6;
 let M = new Array(columns);
@@ -28,3 +28,5 @@ for (let i = 0; i < lines; i++) {
 
 console.log(V);
 console.log(`O tamanho do vetor é ${V.length}.`)
+
+// Professor Jaques, para modificar o tamanho da matriz, basta ajustar as variáveis lines e columns, se não ajustar, terá que digitar 36 valores para a matriz para realizar o teste de usabilidade.
