@@ -6,13 +6,13 @@ let lines = 15;
 let columns = 20;
 let sumColumns = new Array(columns).fill(0);
 
-// Criando Array
+// Criando matriz
 let M = new Array(lines);
 for (let i = 0; i < lines; i++) {
 	M[i] = new Array(columns); 
 }
 
-// Gerando os números de forma aleatória para o Array
+// Gerando os números de forma aleatória para atribuir na matriz
 for (let i = 0; i < lines; i++) {
 	for (let j = 0; j < columns; j++) {
 		M[i][j] = parseInt(Math.random() * 10); 
