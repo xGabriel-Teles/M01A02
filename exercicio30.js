@@ -16,5 +16,19 @@ for (let i = 0; i < lines; i++) {
         M[i][j] = parseInt(Math.random() * 10);
     }
 }
+let SL = new Array(lines).fill(0);
+let SC = new Array(columns).fill(0);
 
-console.table(M)
+// Percorrendo a matriz
+for (let i = 0; i < lines; i++) {
+    for (let j = 0; j < columns; j++) {
+
+        SL[i] += M[i][j];
+        SC[j] += M[i][j];
+    }
+}
+
+console.table(M);
+console.log(`\nA soma de cada linha da matriz, com sua respectiva posição é ${SL}.`);
+console.log(`A soma de cada coluna da matriz, com sua respectiva posição é ${SC}.`);
+console.log();
