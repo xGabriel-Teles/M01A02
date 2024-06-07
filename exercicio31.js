@@ -41,11 +41,8 @@ for (let i = 0; i < lines; i++) {
         }
     }
 }
-console.log()
-console.log('Matriz V');
+console.log('\nMatriz V');
 console.table(V);
-console.log()
-console.log('Matriz X')
+console.log('\nMatriz X')
 console.table(X);
-
 console.log(`\nPossuem ${counter} números iguais a A na matriz V.`)
