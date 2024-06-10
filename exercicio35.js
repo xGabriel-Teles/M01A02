@@ -4,9 +4,7 @@ O tamanho do vetor é de 5 posições. Se algum vetor estiver cheio, escrevê-lo
 Terminada a leitura, escrever o conteúdo dos dois vetores. Cada vetor pode ser preenchido quantas vezes forem necessárias.
 */
 
-
 // Criando vetores
-
 let evenNumbers = [];
 let oddNumbers = [];
 
