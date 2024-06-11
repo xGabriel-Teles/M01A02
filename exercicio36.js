@@ -46,7 +46,7 @@ for (let gambler = 1; gambler <= 100; gambler++) {
         }
     }
     if (hits === 13) {
-        console.log(`Parabéns, o jogador do cartão de identificação ${numberCard} acertou os 13 números e é o ganhador!`);
+        console.log(`Parabéns jogador do cartão de identificação ${numberCard}, tu foi o GANHADOR!`);
     } else {
         console.log(`Tente novamente, o jogador do cartão de identificação ${numberCard} você acertou ${hits} números.`);
     }
