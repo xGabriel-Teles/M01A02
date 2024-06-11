@@ -8,8 +8,8 @@ let data = {
     age: 30,
     hobbies: ['futebol', 'leitura', 'games'],
     address: {
-        street: 'Rua Principal',
-        number: 123
+        street: 'Rua dos bobos',
+        number: 0,
     },
     phones: ['99999-9999', '3434-3434'],
     active: true,
